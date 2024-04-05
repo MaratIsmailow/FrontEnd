@@ -1,0 +1,84 @@
+.violet-style {
+    color: blueviolet;
+    font-size: 20px;
+    }
+ 
+#four {
+    color: bisque;    
+    }
+
+.violet-style.yellotext {
+    color: yellow;
+} 
+
+.violet-style + .blue-style {
+    background-color: aqua;
+
+}
+
+ul li:first-child {
+    color: red;
+
+}
+
+a:hover {
+    color: chartreuse;
+
+}
+
+.frontsize25 {
+    font-size: 25px;
+}
+
+.violet-style.frontsize25 {
+    background-color: brown;
+}
+
+.experements {
+    font-size: 20px;
+    font-weight: 700px;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: rgb(red, green, blue76);
+    display: inline;
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.enemy {
+    font-size: 25px;
+}
+
+.quadrate1 {
+    background-color: blue;
+}
+
+.quadrate2{
+    background-color: green;
+}
+
+.quadrate3{
+    background-color: coral;
+    border-style: solid;
+    background-color: #555505;
+    border-width: 5px;
+}
+
+.quadrate1, .quadrate2, .quadrate3 {
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+} 
+
+/*.quadrate1 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+} */
+
+
