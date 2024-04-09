@@ -3,16 +3,16 @@
     margin: 250px;
     padding: 10px 50px;
     border-radius: 10px;
-    border: 2px solid;
+    border: 5px solid;
     background-color: rgb(78, 174, 234);
-    color:black;
+    color:white;
     text-align: center;
     font-size: 20px;
      
   }
   
 .button:hover {
-    background-color: rgb(0, 208, 255);
+    background-color: rgb(0, 136, 255);
   }
   
 .button:active {
