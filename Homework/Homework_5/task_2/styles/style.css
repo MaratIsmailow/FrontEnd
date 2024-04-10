@@ -1,0 +1,78 @@
+body {
+    height: 100%;
+    margin: 10px;
+    padding: 0;
+    border: 2px solid black;
+    display: flexbox;
+    flex-wrap: wrap;
+
+} 
+
+.flex-conainer {
+    display: block;
+    align-items: stretch;
+     
+
+
+}
+
+.header {
+    margin: 10px;
+    height: 100px; 
+    font-size: 30px;
+    text-align: center;
+    background-color: lightblue;
+
+}
+
+.nav {
+    margin: 10px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: lightcoral;
+
+}
+
+.footer {
+    margin: 10px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.main {
+    flex: 1;  
+    background-color: white ; 
+    
+ }  
+
+
+.section {
+    height: 250px;
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+    border: 5px;
+    background-color: aquamarine;
+
+}
+
+.article {
+    height: 250px;
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+    background-color: violet;
+}
+
+.aside {
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    background-color: lightyellow;
+     
+
+
+}

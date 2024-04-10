@@ -7,7 +7,7 @@ body {
 .block {
     width: 200px;
     height: 300px;
-    background: linear-gradient(white, black);
+    background: linear-gradient(to right, white, black);
     border: 2px solid #000;
     border-radius: 5px;
     position: relative;
