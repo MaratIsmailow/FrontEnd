@@ -102,12 +102,12 @@ const arrNa10 = (arrA, a = 10) => {
 
  
 
-const maxInArr2 = (arr, a = 20) => {
-    return Math.max(...arr);
+// const maxInArr2 = (arr, a = 20) => {
+//     return Math.max(...arr);
     
-}
+// }
 
-console.log(maxInArr2(arrF));
+// console.log(maxInArr2(arrF));
 
 
 // Стрелочная функция 

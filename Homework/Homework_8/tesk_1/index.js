@@ -49,3 +49,54 @@ console.log('----------------------------------')
 console.log('----------------------------------')
 
 
+function primeNamberInBetween(s) {
+ 
+
+    const array = [];
+    for (let i = 1; i <= Math.floor(s); i++) {
+        if (primeNamber(i) === true ) {
+            array.push(i);
+        }      
+    }  
+    return array;  
+}
+
+const primeNumberInBetween = s => {
+    const array = [];
+    for (let i = 1; i <= Math.floor(s); i++) {
+        if (primeNamber(i) === true ) {
+            array.push(i);
+        }      
+    }  
+    return array;  
+}
+
+console.log(primeNamberInBetween(1000));
+function primeNamber (f) {
+    if (f > 1 ) {
+        for (let i = 2; i <= Math.sqrt(f); i++) {
+        if (f % i === 0 ) {
+            return false;
+        }               
+    }
+    return true;
+    }
+    return false;
+}
+
+const primeNumber = (f) =>  {
+
+    if (f > 1 ) {
+        for (let i = 2; i <= Math.sqrt(f); i++) {
+        if (f % i === 0 ) {
+            return false;
+        }               
+    }
+    return true;
+    }
+    return false;
+}
+
+ 
+ 
+
