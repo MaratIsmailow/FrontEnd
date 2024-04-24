@@ -22,7 +22,7 @@ let arr = [
 ];
 
 
-function arrayToObject(arr) {
+function arrToObject(arr) {
     let object = {};
     for (let i = 0; i < arr.length; i++) {
         let key = arr[i][0];
@@ -32,4 +32,4 @@ function arrayToObject(arr) {
     return object;
 }
 
-console.log(arrayToObject(arr));
+console.log(arrToObject(arr));

@@ -9,15 +9,15 @@
 
 let array = ['a', 36.6, 'John Doe']
 
-function arrayToObject(array) {
+function arrToObject(arr) {
     let object = {};
-    for(let i = 0; i < array.length; i++) {
-        let key = array[i];
+    for(let i = 0; i < arr.length; i++) {
+        let key = arr[i];
         object[key] = key;
     }
     return object;
 }
 
-console.log(arrayToObject(array));  
+console.log(arrToObject(array));  
 
 
